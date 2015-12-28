@@ -25,7 +25,7 @@ NSInvocation* inv = [NSInvocation invocationWithBlockAndArguments:myBlock,[NSObj
 
 ## Update
 I attempted to add support for struct and union.
-```
+```objc
 NSUInteger valueSizeInByte = 0;
 NSUInteger align = 0;
 NSGetSizeAndAlignment(argType, &valueSizeInByte, &align);
